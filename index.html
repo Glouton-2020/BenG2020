@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "styles.css">
+    <title>Hangman Game</title>
+</head>
+
+
+<body>
+    <div class="header">
+        <img src="./assets/images/logo.png" alt="Office Logo" id="officeLogo">
+        <div id="officeTitle">Hangman</div>
+    </div>
+
+    <div class="textResult">
+        <p id="textResultChange"></p>
+    </div>
+    <div class ="leftGrid fullGrid" id="image-place">
+        <img src="./assets/images/fullcast.jpg" alt="The Office" id="wholeCast">
+        <img src="./assets/images/beets.jpg" alt="beets" id=beets class="answerImage">
+        <img src="./assets/images/chili.jpg" alt="chili" id=chili class="answerImage">
+        <img src="./assets/images/dwight.jpg" alt="dwight" id=dwight class="answerImage">
+        <img src="./assets/images/jim.jpg" alt="jim" id=jim class="answerImage">
+        <img src="./assets/images/kevin.jpg" alt="kevin" id=kevin class="answerImage">
+        <img src="./assets/images/michael.jpg" alt="michael" id=michael class="answerImage">
+        <img src="./assets/images/kevin.jpg" alt="kevin" id=kevin class="answerImage">
+        <img src="./assets/images/losev2.jpg" alt="lost" id=lost class="answerImage">
+        </div>
+        
+
+    <div class="rightGrid fullGrid">
+        <div class="gridText">
+            <p> Press Any Key to Begin! </p>
+            <p>Wins</p>
+            <p id="total-wins">0</p>
+            <p>Current Word</p>
+            <p id="current-word"></p>
+            <p>Guesses remaining</p>`
+            <p id="guesses"></p>
+            <p>Letters Used</p>
+            <p id=letters-used></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

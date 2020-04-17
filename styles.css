@@ -1,0 +1,126 @@
+
+#officeTitle {
+    margin-top: -10px;
+    margin-left: 550px;
+    font-family: "Lucida Console", monospace;
+    font-size: 50px;
+}
+
+#officeLogo {
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+body {
+    background-color: #20c0f5;
+}
+
+#textResultChange {
+    float: left;
+    font-family: "Lucida Console", monospace;
+    text-align: center;
+    padding: 50;
+    margin-top: 60px;
+    font-size: 30px;
+    background-color: #fadeba;
+
+} 
+
+.fullGrid {
+    height: 800px;
+    width: 550px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 7px groove #f2f6fc;
+    justify-content: center;
+}
+
+.leftGrid {
+    float: left;
+    margin-left: 280px;
+}
+
+#wholeCast  {
+    height: 400px;
+    width: 520px;
+    margin-top: 70px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.answerImage {
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 15px;
+    visibility: hidden;
+}
+
+#beets {
+    height: 550px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+#chili {
+    margin-top: -750px;
+    height: 500px;
+    width: 530px;
+    border-radius: 8px;
+}
+
+#dwight {
+    margin-top: -600px;
+    margin-bottom: 300px;
+    height: 650px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+#jim {
+    margin-top: -1350px;
+    margin-bottom: 600px;
+    margin-left: 25px;
+    height: 550px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+#beets {
+    margin-top: -600px;
+    margin-left: 25px;
+    height: 600px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+#kevin {
+    margin-top: -1050px;
+    height: 450px;
+    width: 520px;
+    border-radius: 8px;
+}
+
+#michael {
+    margin-top: -1650px;
+    margin-bottom: 400px;
+    margin-left: 25px;
+    height: 450px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.rightGrid {
+    float: left;
+    border-left: none;
+    margin-left: 15px;
+}
+
+
+.gridText {
+    font-family: "Lucida Console", monospace;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+}
