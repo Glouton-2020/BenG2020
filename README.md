@@ -6,6 +6,7 @@
 ======================================================
 ## Concept: 
 =======================================================
+
 A word guessing game for one player. It is based around the theme of the hit tv show the office. 
 The computer selects a word from the array and the user has to pick letter by letter from the keyboard. When a correct letter is picked it will fill out the current word, when an incorrect letter is picked, the guesses counter logs is as a penalty and the letters function will log that word used, removing it from the array. If there are 10 penalties the game is over displaying the Lose image. If the user selects all correct words then the winning image is displayed. The user can continue the game by clicking any keys. 
 
