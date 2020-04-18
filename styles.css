@@ -1,6 +1,11 @@
+*,*::after,*::before {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;
+}
 
 #officeTitle {
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: 550px;
     font-family: "Lucida Console", monospace;
     font-size: 50px;
@@ -18,23 +23,21 @@ body {
 }
 
 #textResultChange {
-    float: left;
     font-family: "Lucida Console", monospace;
     text-align: center;
-    padding: 50;
-    margin-top: 60px;
+    padding-top: 150;
+    margin-top: 160px;
     font-size: 30px;
-    background-color: #fadeba;
-
 } 
 
 .fullGrid {
-    height: 800px;
-    width: 550px;
+    overflow: hidden;
+    height: 900px;
+    width: 750px;
     margin-top: 20px;
+    margin-left: 10px;
     margin-bottom: 100px;
     border: 7px groove #f2f6fc;
-    justify-content: center;
 }
 
 .leftGrid {
@@ -43,12 +46,14 @@ body {
 }
 
 #wholeCast  {
-    height: 400px;
-    width: 520px;
-    margin-top: 70px;
-    margin-left: 15px;
+    height: 550px;
+    width: 620px;
+    margin-top: 100px;
+    margin-left: 50px;
     border-radius: 8px;
 }
+
+/* Works okay to fit into the box but will need to refactor into simpler classes  */
 
 .answerImage {
     width: 350px;
@@ -58,13 +63,15 @@ body {
 }
 
 #beets {
-    height: 550px;
-    width: 500px;
+    margin-top: -270px;
+    margin-left: 100px;
+    height: 750px;
+    width: 800px;
     border-radius: 8px;
 }
 
 #chili {
-    margin-top: -750px;
+    margin-top: -550px;
     height: 500px;
     width: 530px;
     border-radius: 8px;
@@ -73,17 +80,18 @@ body {
 #dwight {
     margin-top: -600px;
     margin-bottom: 300px;
-    height: 650px;
-    width: 350px;
+    margin-left: 50px;
+    height: 750px;
+    width: 450px;
     border-radius: 8px;
 }
 
 #jim {
-    margin-top: -1350px;
-    margin-bottom: 600px;
-    margin-left: 25px;
-    height: 550px;
-    width: 500px;
+    margin-top: -1250px;
+    margin-bottom: 300px;
+    margin-left: 100px;
+    height: 700px;
+    width: 600px;
     border-radius: 8px;
 }
 
@@ -96,14 +104,24 @@ body {
 }
 
 #kevin {
-    margin-top: -1050px;
-    height: 450px;
+    margin-top: -2150px;
+    height: 550px;
     width: 520px;
     border-radius: 8px;
+    margin-bottom: 500px;
 }
 
 #michael {
     margin-top: -1650px;
+    margin-bottom: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 650px;
+    border-radius: 8px;
+} 
+
+#lost {
+    margin-top: -1250px;
     margin-bottom: 400px;
     margin-left: 25px;
     height: 450px;

@@ -37,6 +37,7 @@ function wordCheck(userGuess) {
         resetFunction();
         return
     }
+
 // AlphabetArray 
     var isItLetter = false;
     var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -45,6 +46,7 @@ function wordCheck(userGuess) {
             isItLetter = true;
         }
     }
+
 // Pick a letter function
 // =======================
     if (isItLetter === false) {
@@ -98,6 +100,7 @@ function wordCheck(userGuess) {
     document.getElementById("current-word").innerHTML = playSpace;
 
     // Create Underscore 
+
     function drawBlanks() {
         var underscoreArray = [];
         for (i = 0; i < wordChoice.length; i++) {
@@ -125,47 +128,51 @@ function wordCheck(userGuess) {
                     case "beets":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("beets").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "'Bears, Beets, Battlestar Galactica'";
+                        document.getElementById("textResultChange").innerHTML = "'Bears, Beets, Battlestar Galactica!'";
                     break;
 
                     case "chili":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("chili").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "'The tragedy of Kevin's famous chili'";
+                        document.getElementById("textResultChange").innerHTML = "'Have you heard of the tragedy of Kevin's famous chili?'";
                     break;
 
                     case "dwight":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("dwight").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "'Whenever i'm about to do something, I think, Would an idiot do that? And if they would, I do not do that thing.'";
+                        document.getElementById("textResultChange").innerHTML = "'You've got Dwight!'";
                     break;
 
                     case "jim":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("jim").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "My job was to speak to clients about quantities and type of copier paper";
+                        document.getElementById("textResultChange").innerHTML = "'My job was to speak to clients about quantities and type of copier paper...'";
                     break;
 
                     case "kevin":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("kevin").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "I wanna be wined and dined and... sixty-nined";
+                        document.getElementById("textResultChange").innerHTML = "'I wanna be wined and dined and... sixty-nined...'";
                     break;
 
                     case "michael":
                         document.getElementById("wholeCast").style.visibility =  "hidden";
                         document.getElementById("michael").style.visibility =  "visible";
-                        document.getElementById("textResultChange").innerHTML = "Would i rather be feared or loved? Easy - Both. I want people to be afraid of how much they love me";
+                        document.getElementById("textResultChange").innerHTML = "'Would i rather be feared or loved? Easy.... Both. I want people to be afraid of how much they love me.'";
                     break;
                 }
                 wins++;
                 winsFunction();
             }
 
+// WIN function
+
     function winsFunction() {
         document.getElementById("total-wins").innerHTML = wins;
         gameFinished = true;
     }
+
+// LOSE function
 
     function loserFunction() {
         if (guesses === 0) {
@@ -176,7 +183,7 @@ function wordCheck(userGuess) {
         }
     }
 
-// Add Reset Function 
+// Reset Function 
 
     function resetFunction() {
 
