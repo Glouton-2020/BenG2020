@@ -1,10 +1,20 @@
 // console.log('Hello Scranton!');
 
+// The computer needs to pick a random word for the player to guess. 
+// The user will need to guess the letter and the computer needs to store each word chosen, subtracting that word from the available array. 
+
+// If a letter matches with the correct sentence, the computer will reveal and keep the letter on the screen. 
+// When all correct words are chosen, the image associated with the random word chosen will display and the user can restart the game by clicking any key. 
+// When all guesses are used up the player loses and the game can be restarted by clicking on any key. 
+
+
 //============
 // Variables
 //============
 
+// Win counter 
 var wins = 0;
+// Guess Counter
 var guesses = 10;
 var gameFinished = false;
 
